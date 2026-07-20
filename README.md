@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "MASUKKAN_TOKEN_BOT"
+TOKEN = "8749742634:AAHoTYmyly0m7W22rH5isOVjBPb0xNtLLGM"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
@@ -9,9 +9,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 Pilih Menu:
 
-/produk
+/PRODUK
 /pembayaran
-/admin
+/OWNER
 """
     )
 
