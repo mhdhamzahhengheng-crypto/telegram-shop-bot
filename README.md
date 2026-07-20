@@ -18,15 +18,18 @@ Pilih Menu:
 async def produk(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         """
-📦 PRODUK
+/start
+📦 Produk Digital
 
-• Telegram Premium
-• Telegram Stars
-• Userbot
-• Followers Instagram
-• Followers TikTok
-• Top Up Game
-
+├── Telegram Premium
+├── Telegram Stars
+├── Userbot
+├── Top Up Game
+├── Followers Instagram
+├── Followers TikTok
+├── Netflix
+├── Spotify
+└── Canva Pro
 Hubungi Admin Untuk Order.
 """
     )
@@ -35,11 +38,10 @@ async def pembayaran(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         """
 💳 Pembayaran
-
-✅ QRIS
-✅ DANA
-✅ BSI
-✅ BNI
+├── QRIS
+├── DANA
+├── BSI
+└── BNI
 """
     )
 
